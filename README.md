@@ -38,6 +38,28 @@ Place the file in the same folder as the script and rename it to:
 
 ---
 
+## 🐍 Python Environment Setup
+
+It is recommended to use a virtual environment.
+
+### 1. Create and activate a virtual environment
+```bash
+# Create venv
+python3 -m venv venv
+
+# Activate venv (macOS/Linux)
+source venv/bin/activate
+
+# Activate venv (Windows PowerShell)
+venv\Scripts\Activate
+
+
+
+pip install --upgrade pip
+pip install requests google-auth google-auth-oauthlib
+
+---
+
 ## ▶️ Usage
 
 Run the script with:
