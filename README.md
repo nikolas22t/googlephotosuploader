@@ -57,6 +57,7 @@ venv\Scripts\Activate
 
 pip install --upgrade pip
 pip install requests google-auth google-auth-oauthlib
+pip install -r requirements.txt
 
 ---
 
